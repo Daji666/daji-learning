@@ -4,6 +4,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "My Awesome Project",
   description: "A VitePress Site",
+  outDir: 'docs',
+  base: '/docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -25,6 +27,7 @@ export default defineConfig({
       prev: '上一页',
       next: '下一页'
     },
+
     lastUpdated:{
       text: '最后更新时间',
       formatOptions: {
@@ -32,6 +35,7 @@ export default defineConfig({
         timeStyle: 'short'
       }
     },
+    
     search: {
       provider: 'local',
     },

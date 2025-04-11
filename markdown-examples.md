@@ -99,4 +99,4 @@ const members = [
 
 </script>
 
-<VPTeamMembers size='small' :members="members"> 
+<VPTeamMembers size='small' :members="members" /> 
