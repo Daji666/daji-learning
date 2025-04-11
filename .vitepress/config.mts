@@ -18,7 +18,10 @@ export default defineConfig({
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: 'Java学习', link: '/learning/java' },
+          { text: '算法学习', link: '/learning/algorithm' },
+          { text: '网络学习', link: '/learning/network' }
         ]
       }
     ],
