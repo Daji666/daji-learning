@@ -5,7 +5,7 @@ export default defineConfig({
   title: "My Awesome Project",
   description: "A VitePress Site",
   outDir: 'docs',
-  base: '/docs/',
+  base: '/daji-learning/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
